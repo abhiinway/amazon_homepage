@@ -190,6 +190,11 @@ footer a h3{
 footer a{
     text-decoration: none;
 }
+.move{
+    margin-top: 5px;
+    background-color: #232f3e;
+
+}
 .footer{
     background-color: #131921;
     padding: 50px;
