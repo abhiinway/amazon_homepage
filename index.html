@@ -12,8 +12,17 @@
     <!-- font awsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
     <!--X-- font awsome cdn--X-->
+    <script src="index.js"></script>
 </head>
 <body>
+    <!-- coupon -->
+ <div id="coupon">
+    <button onclick="closeCoupon()">&times;</button>
+</div>
+<script>
+    window.onload=loadcoupon(); 
+</script>
+<!-- coupon -->
     <!-- navigation bar -->
     <nav id="firstnav">
         <div class="nav-brand">
@@ -49,14 +58,14 @@
               <li><a href="#">Today's deal</a></li>
               <li><a href="#">Customer service</a></li>
               <li><a href="#">Electronics</a></li>
-              <li><a href="#">Fashion</a></li>
+              <button id="borderradius" onclick="changemode()">dark mode</i></button>
               
             </ul>
           </div>
         </div>
       </nav>
     <!-- X--navigation bar --X-->
-
+ 
     <!-- Banner -->
     <div id="adjust">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -448,5 +457,7 @@
         </div>
 </div>
     <!--X-- Footer --X-->
+   
+
 </body>
 </html>
